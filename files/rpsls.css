@@ -1,0 +1,121 @@
+.rpsls {
+	display:  block;
+	width:  90%;
+	margin:  28px auto 48px;
+}
+
+.rpsls h2 {
+	font-size:  28px;
+	line-height:  36px;
+	font-weight:  500;
+}
+	
+.rpsls-img img {
+	width: 200px;
+	background-color: #CCC;
+	padding: 5px;
+	margin:  0 auto 32px;
+}
+
+.rpsls-buttons button {
+	border: none;
+	cursor:  pointer;
+	background-color: #121668;
+	font-size: 1.8em;
+	font-weight: bold;
+	padding: 25px;
+	color: #E1E1E1;
+	margin-bottom: 5px;
+	box-shadow: 2px 2px 5px #222;
+	-moz-box-shadow: 2px 2px 5px #222;
+	-webkit-box-shadow: 2px 2px 5px #222;
+	transition: box-shadow 0.4s, color 0.8s, background 0.75s;
+}
+
+.rpsls-buttons button:hover {
+	color: #121212;
+	background-color: #f1f1f1;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.rpsls-buttons input[type="image"] {
+	width: 150px;
+}
+
+.rpsls ul li {
+	width:  50%;
+	float:  left;
+	display: block;
+	position:  relative;
+}
+
+.rpsls ul li img {
+	margin:  0 auto;
+	width: 96%;
+	max-width: 200px;
+	cursor: pointer;
+	border:  1px dashed transparent;
+}
+
+.rpsls ul li:hover img {
+	border-color: #000;
+}
+
+.rpsls-feedback {
+	clear:  both;
+	font-size:  18px;
+	padding:  20px 0;
+}
+
+.rpsls-feedback #result {
+	font-weight:  700;
+	font-size:  21px;
+}
+
+.disclaimer {
+	clear:  both;
+	margin:  32px 0;
+	font-size:  14px;
+}
+
+.scoreboard {
+	clear:  both;
+	display:  block;
+	margin:  12px 0;
+	border:  1px solid #666;
+	padding:  12px;
+	background:  rgba(0, 0, 0, 0.75);
+	color:  #fff;
+}
+
+.scoreboard p {
+	max-width:  50%;
+}
+
+@media (min-width: 780px) {
+
+	.rpsls h2 {
+		font-size:  55px;
+		line-height:  58px;
+		max-width:  75%;
+	}
+
+	.rpsls-img img {
+		float: right;
+		width: 200px;
+		background-color: #CCC;
+		padding: 5px;
+	}
+
+	.rpsls ul li {
+		width:  20%;
+	}
+	.rpsls-feedback #result {
+		font-size:  36px;
+	}
+
+	.rpsls-buttons button { margin-right:  5px; }
+}
+
